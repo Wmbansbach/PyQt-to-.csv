@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "RABTAX", "RABTAX\RABTAX.pyproj", "{D0F44F4D-9DA2-4481-AC14-2AF036DEF77E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0F44F4D-9DA2-4481-AC14-2AF036DEF77E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0F44F4D-9DA2-4481-AC14-2AF036DEF77E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {164AC35F-3CD1-4593-844C-FE3DE56ABCD1}
+	EndGlobalSection
+EndGlobal
