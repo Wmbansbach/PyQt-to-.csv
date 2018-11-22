@@ -49,7 +49,7 @@ class tools:
         # (File exists) Find the current index of the file
         else:
             controlState = 1                            # State indicating file exists
-            indCounter = rabtax.index.max()             # Finding maximum index of the dataframe
+            indCounter = rabtax.index.max()             # Get maximum index of the dataframe
             if indCounter == 26:                        # Max value is 26 (Full year)
                 indCounter = self.indexList[0]          # Reset counter to first element
                 controlState = 2                        
@@ -78,13 +78,10 @@ class tools:
 
         # Add extra expenses given to the dictionary if any exist
         if extraExp:
-            #valCount = 0
             for key, val in extraExp.items():
                 dFrameDict[key] = pd.Series([val], index=[self.indCounter])
-                #valCount += 1
 
         # Convert the dictionary to a Pandas dataframe
-        # Move value to object an property
         self.temp = pd.DataFrame(dFrameDict)
 
     def PushtoFile(self):
